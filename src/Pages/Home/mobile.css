@@ -1,0 +1,132 @@
+@media (max-width: 850px) {
+    .first-txt{
+        font-size: 6vh
+    }
+
+    .first-icon{
+        font-size: 6vh
+    }
+    .second-page{
+        display: flow-root;
+        flex-direction: column;
+    }
+    
+    .second-box{
+        margin-left: 5vh;
+        margin-top: 4vh;
+    }
+
+    .second-txt{
+        padding: 8%;
+    }
+
+    .second-page{
+        flex-wrap: wrap;
+    }
+    
+    .second-box-img{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .second-img{
+        height: 30vh;
+        width: 30vh;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .second-btn{
+        width: 60%;
+        padding: 10px;
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+
+    .third-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third-gallery{
+        width: 80%;
+        margin: 20px;
+        
+    }
+
+    .fourth-box1{
+        margin-left: 5vh;
+    }
+
+    .fourth-box1 p{
+        margin-left:5vh;
+        width: 100%;
+    }
+
+    .fourth-box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15%;
+    }
+    
+    .fourth-h1{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .line-bar{
+        width: 65%;
+    }
+    .fifth-box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1%;
+    }
+
+    .fifth-box2-title{
+        text-align: center;
+    }
+
+    .fifth-box2-txt{
+        width: 42%;  
+    }
+    .fifth-box2-icon{
+        margin-left: 0%;
+        
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .footer-btn {
+        width: 35%;
+    }
+
+    .footer-box1{
+        margin-top: 10px;
+    }
+
+    .footer-box2{
+        margin-top: 10px;
+    }
+
+    .hamburguer, .hamburguer::after, .hamburguer::before {
+       
+
+        height: 2px;
+    }
+
+    .hamburguer {
+        top:5%;
+        right: 3%;
+
+    }
+    
+}

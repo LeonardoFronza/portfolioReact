@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;  
+}
+
+.icon{
+  position: absolute;
+  z-index: 4;
+  left: 1%;
+  width: fit-content;
+  height: 44px;
+  cursor: pointer;
+}
+
+.hamburguer {
+  top:7%;
+  right: 56px;
+
+  width: 37px;
+  height: 4px;
+  background-color: #ffff;
+  position: fixed;
+  transition: 0.5s;
+}
+
+.hamburguer::before {
+  top: -12px;
+  content: '';
+  position: absolute;
+  width: 37px;
+  height: 4px;
+  background-color: #ffff;
+  transition: 0.5s;
+}
+
+.hamburguer::after {
+  top: 12px;
+  content: '';
+  position: absolute;
+  width: 37px;
+  height: 4px;
+  background-color: #ffff;
+  transition: 0.5s;
+}
+
+.list{
+  left: 1%;
+  padding: 80px 0 0;
+  flex-wrap: nowrap;
+  color: red;
+}
+
+.list .listItems {
+  padding: 0;
+  list-style: none;
+
+}
+
+.list .listItems li a{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 2.8vh;
+}
+
+.list .listItems li:hover{
+  font-weight: 800;
+}
+
+.icon.iconActive .hamburguer {
+  background: transparent;
+  
+}
+
+.icon.iconActive .hamburguer::after {
+  top: 0;
+  background: #fff;
+  transform: rotate(225deg);
+}
+
+.icon.iconActive .hamburguer::before {
+  top: 0;
+  background: #fff;
+  transform: rotate(135deg);
+}
+
+.menu.menuOpen {
+  position: fixed;
+  width: 150px;
+  height: 100vh;
+  background-color: #1D1D1D;
+  right: 0;
+  top: 0px;
+
+}
+
+.menu.menuClose {
+  display: none;
+  width: 0px;
+}
+

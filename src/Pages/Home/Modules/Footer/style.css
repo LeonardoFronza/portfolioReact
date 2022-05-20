@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #1D1D1D;
+    border-top: 1px solid #EA2196;
+}
+
+.footer-box1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    justify-content:center ;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-box2{
+    flex: 5%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.footer-box2 ion-icon {
+    font-size: 5vh;
+    margin: 1vh;
+    color: #FFFFFF;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: none;
+    width: 25%;
+    outline: 0;
+}
+
+.footer-btn ion-icon {
+    font-size: 100%;
+    color: #1D1D1D;
+}

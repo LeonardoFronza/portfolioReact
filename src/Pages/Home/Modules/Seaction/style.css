@@ -1,0 +1,320 @@
+.first-txt{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8vh;
+    color: #FFFFFF;
+    
+    margin-top: 20vh;
+    margin-left: 5vh;
+}
+
+
+.color-leonardo{
+    background-color: #1D1D1D;
+    border-radius: 12px;
+}
+
+.first-page-section2{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 4vh;
+    margin-top: 1vh;
+    
+}
+
+.first-icon {
+    color: #FFFFFF;
+    font-size: 10vh;
+    margin-left: 1.5vh;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+
+.first-icon:hover{
+    color: #08FDD8;
+}
+
+/*CSS PAGINA 2*/
+
+.second-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 36vh;
+    background-color: #1D1D1D;
+    border-top: 1px solid #08FDD8;
+}
+
+.second-box{
+    flex: 1;
+    margin-left: 12vh;
+    margin-top: 4vh;
+}
+
+.second-title{
+    font-style: normal;
+    font-size: 10vh;
+    font-weight: 600;
+    color: #08FDD8;
+}
+
+.second-txt{
+    margin-left: 2vh;
+    color: #FFFFFF;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.second-btn{
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 40%;
+    height: 8%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    box-shadow: 4px 2px 8px rgba(184, 183, 183, 0.50);
+}
+
+.second-btn:hover{
+    background-color: #08FDD8;
+    box-shadow: 4px 2px 8px rgba(10, 186, 240, 0.5);
+}
+
+.second-btn ion-icon {
+    font-size: 160%;    
+}
+
+.second-box-img{
+    flex-basis: 45%;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-right: 18vh;
+    margin-left: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.second-img {
+    height: 50vh;
+    border-radius: 50%;
+    box-shadow: 5px 10px 15px rgba(184, 183, 183, 0.50);
+    background-image: url('../../../../images/monkey-pop.jpg') ;
+    background-size: cover;
+    max-width: 50vh;
+    max-height: 50vh;
+    
+}
+
+
+/*CSS PAGINA 3*/
+
+.third-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5% ;
+    background-color: #1D1D1D;
+    padding-bottom: 10vh;
+}
+
+.third-gallery{
+    width: 25%;
+    height: auto; 
+    
+    border-top: 1px solid #08FDD8;
+    box-shadow: 5px 5px 5px rgba(46, 45, 45, 0.2);
+}
+
+.third-h1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.third-p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15vh;
+    font-weight: 300;
+}
+
+/*CSS PAGINA 4*/
+.fourth-page{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #08FDD8;
+    padding-top: 5%;
+}
+
+.fourth-box1{
+    flex: 10%;
+    margin: 0px 85px 0px 0px;
+    margin-left: 12vh;
+}
+
+.fourth-box1 h1 {
+    color: #08FDD8;
+    font-size: 10vh;
+}
+
+.fourth-box1 p {
+    color: white;
+    margin-left: 2vh;
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+.fourth-box2{
+    flex: 1;
+    margin-top: 1.5vh;
+}
+
+.fourth-h1{
+    color: #FFFFFF;
+    padding: 5px 0px 5px 0px;
+}
+
+.line-bar{
+    background-color: lightgray;
+    width: 75%;
+}
+
+.line-bar-color{
+    height: 2px;
+    width: 30%;
+}
+
+.line-background1 {
+    background-color: #EA2196; 
+    width: 25%;
+}
+
+.line-background2 {
+    background-color: #EA2444; 
+    width: 10%;
+}
+
+.line-background3{
+    background-color: aqua;
+}
+/*Pagina 5*/
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.fifth-box1{
+    display: flex;
+    
+    flex: 10%;
+}
+
+.formulario{
+    width: 100%;
+    padding: 15%;
+    margin:0 auto;
+}
+
+.formulario h1{
+    margin-left: -4%;
+    color: #FFFFFF;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    
+}
+
+.radiobox label{
+    width: auto;
+    display: inline-block;
+    
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(36, 35, 35);
+    outline: none;
+    background-color: #1D1D1D;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: rgb(248, 248, 248);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fifth-box2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    z-index: -1;
+    margin-top: 5%;
+}
+
+.fifth-box2-title{
+    font-weight: 600;
+    font-size: 6vh;
+    color: #FFFFFF;
+}
+
+.fifth-box2-txt{
+    font-weight: 300;
+    margin: 0 auto;
+    color: #FFFFFF;
+    width: 24%;
+    border-bottom: 1px solid #EA2196;
+}
+
+.fifth-box2-icon{
+    font-size: 34vh;
+    margin-top: 4%;
+    
+}
+
+.fifth-box2 a {
+    color: #FFFFFF;
+}
